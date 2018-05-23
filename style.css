@@ -1,7 +1,10 @@
-.header {
+header {
     background-color: #ffffff;
     text-align: center;
-    box-sizing: border-box;
+    height: 122px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 a:link {
@@ -17,38 +20,37 @@ a:visited {
     font-size: 15px;
     color: #777777;
     float: right;
-    align: right;
+    text-align: center right;
 }
 
-.h1 {
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: bold;
     color: #ffffff;
+    display: inline-block;
     background-color: #4AAAA5;
     padding: 30px 15px;
 }
 
 body {
     background-image: url("dust_scratches/dust_scratches.png");
-    min-height: 100%;
+    width: 100%;
 }
 
-.div1 {
+#content {
     font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
     font-size: 20px;
     color: #777777;
-    float: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    box-align: center;
     background-color: #ffffff;
     border: 1px solid #dddddd;
-}
-
-.column.side {
-    width: 15%;
-}
-
-.column.middle {
-    width: 70%;
 }
 
 h2 {
@@ -58,15 +60,23 @@ h2 {
     color: #4AAAA5;
 }
 
+img {
+    float: left;
+    margin: 30px;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: gray
 }
 
-.footer {
+footer {
     background-color: #666666;
+    width: 100%;
+    margin-top: 80px;
     text-align: center;
-    height: 50px;
-    border: 3px solid #4AAAA5;
+    height: 40px;
+    border: 3px 0px 0px 0px solid #4AAAA5;
+    display: inline-block;
 }
