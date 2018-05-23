@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-.div {
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#myTopnav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #777777;
-    box-align: right;
+    float: right;
+    align: right;
 }
 
 .h1 {
@@ -21,7 +30,7 @@
 }
 
 body {
-    background-image: url("dust_scratches.png");
+    background-image: url("dust_scratches/dust_scratches.png");
     min-height: 100%;
 }
 
