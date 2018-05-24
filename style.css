@@ -80,13 +80,15 @@ body {
 
 #portfolio {
     font-family: Arial, Helvetica, sans-serif;
-    width: 960px;
+    height: 700px;
+    width: 800px;
     font-size: 20px;
     color: #777777;
     vertical-align: middle;
     margin-top: 60px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 100px;
     padding: 20px;
     box-align: center;
     background-color: #ffffff;
@@ -107,6 +109,42 @@ body {
     box-align: center;
     background-color: #ffffff;
     border: 1px solid #dddddd;
+}
+
+table {
+    width: 400px;
+    position: relative;
+    float:left; 
+    margin: -30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+th {
+    height: 5px;
+    align-items: left;
+}
+
+td {
+    height: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #4AAAA5;
+}
+
+.bottom-center {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    background-color: #4AAAA5;
+    color: #ffffff;
 }
 
 form {
@@ -178,15 +216,17 @@ input [type=submit] {
 
 footer {
     position: absolute;
-    background-color: #666666;
-    height: 25px;
-    border-top: 5px solid #4AAAA5;
-    font-size: 6px;
     right:0;
     bottom: 0;
     left: 0;
+    background-color: #666666;
+    height: 25px;
+    width: 100%;
+    border-top: 5px solid #4AAAA5;
+    font-size: 6px;
     margin-top: 100px;
     padding-top: 13px;
     padding-bottom: 5px;
     text-align: center;
+    flex-shrink: 0;
 }
