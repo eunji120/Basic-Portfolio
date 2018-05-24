@@ -9,18 +9,16 @@
 
 <body>
 <header>
-        
-    <h1>Eunji Lee</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFuction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
 
-    <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li>|</li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li>|</li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-        </nav>
+        <h1>Eunji Lee</h1>
 
 </header>
 
@@ -28,25 +26,13 @@
 
 <h2>Contact</h2>
 
-<hr>
-
 <section class="body">
     <form>
         <label for="name">Name</label>
-
-        <br>
-
-        <input type="text" id="name" placeholder="John Smith" size="135">
-
-        <br><br>
+        <input type="text" id="name" placeholder="John Smith">
 
         <label for="email">Email</label>
-
-        <br>
-
-        <input type="text" id="email" placeholder="example@gmail.com" size="135">
-
-        <br><br>
+        <input type="text" id="email" placeholder="example@gmail.com">
 
         <label for="message">Message</label>
         <textarea id="message" style="height:200px"></textarea>
