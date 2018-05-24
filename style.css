@@ -58,6 +58,7 @@ h1 {
 
 body {
     background-image: url("dust_scratches/dust_scratches.png");
+    position:relative;
     width: 100%;
     padding: 30px;
 }
@@ -139,7 +140,7 @@ td {
     color: #4AAAA5;
 }
 
-.bottom-center {
+h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     position: absolute;
@@ -216,6 +217,8 @@ input [type=submit] {
 
 footer {
     position: absolute;
+    z-index: 10;
+    clear: both;
     right:0;
     bottom: 0;
     left: 0;
@@ -230,3 +233,5 @@ footer {
     text-align: center;
     flex-shrink: 0;
 }
+
+/*one of the problems I'm facing is that the footer won't get anchored to the bottom of the page only on the Contact webpage*/
