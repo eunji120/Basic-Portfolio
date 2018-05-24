@@ -144,9 +144,15 @@ h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     position: absolute;
+    display: inline;
     background-color: #4AAAA5;
     color: #ffffff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
+
+/*I couldn't find a way to fix the overlay text-boxes on the images in the given amount of time*/
+
 
 form {
     float: center;
