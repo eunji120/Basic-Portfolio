@@ -57,7 +57,7 @@ h1 {
 }
 
 body {
-    background-image: url("dust_scratches/dust_scratches.png");
+    background-image: url("assets/images/dust_scratches/dust_scratches.png");
     position:relative;
     width: 100%;
     padding: 30px;
